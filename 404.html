@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+
+      html.dark {
+        --c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.classList.toggle('dark', true)
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <link rel="icon" href="/img/favicon.png"><title>Echo</title><meta name="description" content="My first VuePress Site">
+    <link rel="preload" href="/learnDoc/assets/style-DQgJpjMi.css" as="style"><link rel="stylesheet" href="/learnDoc/assets/style-DQgJpjMi.css">
+    <link rel="modulepreload" href="/learnDoc/assets/app-BbAHRb6N.js"><link rel="modulepreload" href="/learnDoc/assets/404.html-CObW27Te.js">
+    <link rel="prefetch" href="/learnDoc/assets/index.html-D5X8toNR.js" as="script"><link rel="prefetch" href="/learnDoc/assets/get-started.html-Di4pNxOD.js" as="script"><link rel="prefetch" href="/learnDoc/assets/index.html-BYtleh_J.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" data-v-303656ba><main class="page" data-v-303656ba><div class="theme-default-content" data-v-303656ba><h1 data-v-303656ba>404</h1><blockquote data-v-303656ba>That&#39;s a Four-Oh-Four.</blockquote><a class="route-link" href="/learnDoc/" data-v-303656ba>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/learnDoc/assets/app-BbAHRb6N.js" defer></script>
+  </body>
+</html>
