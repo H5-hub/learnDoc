@@ -17,11 +17,11 @@ export default defaultTheme({
     navbar,
     sidebar,
 
-    lastUpdated: true, //开启上次更新
+    lastUpdated: false, //开启上次更新
     lastUpdatedText: '上次更新', //修改显示更新的标题
 
     // 默认Github格式：用户名/仓库名
-    repo: 'https://github.com/H5-hub/learnDoc',
+    // repo: 'https://github.com/H5-hub/learnDoc',
 
     //默认:Edit this page，修改显示文字
     editLinkText: '在 GitHub 上编辑此页',

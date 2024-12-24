@@ -1,9 +1,13 @@
 ## 电子签名组件
-
+Signature Pad 是一个用于在网页上绘制签名。
 1. 使用npm安装Signature Pad 在项目中使用npm安装Signature Pad库。
-* `npm install signature_pad --save`
+``` js
+ npm install signature_pad --save
+```
 2. 引入Signature Pad 在Vue中可以使用import关键字将Signature Pad引入进来。
-* `import SignaturePad from 'signature_pad';`
+``` js
+ import SignaturePad from 'signature_pad';
+```
 3. 使用Signature Pad创建一个绘制区域 在Vue的模板中创建一个canvas元素，用于用户在上面签名。
 ``` vue
 <template>
@@ -102,9 +106,9 @@ export default {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
-      }).then(res =&gt; {
+      }).then(res =>; {
         console.log(res.data);
-      }).catch(err =&gt; {
+      }).catch(err =>; {
         console.log(err);
       });
     },

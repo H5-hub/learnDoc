@@ -123,7 +123,7 @@ compressorjs 是一个用于浏览器端的 JavaScript 开源的图片处理库�
   /* 样式可以根据需要进行调整 */
 </style>
 ```
-### 解释
+## 解释
 1. 引入组件：引入了 Uploader、Toast 组件。
 
 2. 模板部分：

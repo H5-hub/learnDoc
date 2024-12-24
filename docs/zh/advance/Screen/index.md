@@ -1,9 +1,6 @@
-## 可视化大屏适配组件（cs3 scal方案）
-
+## 可视化大屏适配组件
+* ScreenAdapter 是一个大屏自适应组件使用css属性transform实现缩放效果
 1. 组件代码
-<details>
-<summary>折叠代码块</summary>
-
 ``` vue
 <template>
   <div
@@ -80,10 +77,7 @@ export default {
   background: red;
 }
 </style>
-
 ```
-</details>
-
 
 2. 使用 将此组件作为外壳，包在我们搭建的页面上
 `<ScreenAdapter> <div>大屏展示页面</div> </ScreenAdapter>`
