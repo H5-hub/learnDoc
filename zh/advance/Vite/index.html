@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+
+      html.dark {
+        --c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.classList.toggle('dark', true)
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <link rel="icon" href="/img/favicon.png"><title>Echo</title><meta name="description" content="My first VuePress Site">
+    <link rel="preload" href="/learnDoc/assets/style-DQgJpjMi.css" as="style"><link rel="stylesheet" href="/learnDoc/assets/style-DQgJpjMi.css">
+    <link rel="modulepreload" href="/learnDoc/assets/app-BDMbNqY6.js"><link rel="modulepreload" href="/learnDoc/assets/index.html--Z1JlOTu.js">
+    <link rel="prefetch" href="/learnDoc/assets/README copy.html-Bv9lTqEV.js" as="script"><link rel="prefetch" href="/learnDoc/assets/index.html-CPbRZec2.js" as="script"><link rel="prefetch" href="/learnDoc/assets/get-started.html-D_CjVKkB.js" as="script"><link rel="prefetch" href="/learnDoc/assets/index.html-DHXJvnIk.js" as="script"><link rel="prefetch" href="/learnDoc/assets/index.html-BtdpzZ-o.js" as="script"><link rel="prefetch" href="/learnDoc/assets/index.html-C3ffhdw3.js" as="script"><link rel="prefetch" href="/learnDoc/assets/getting-started.html-BxIb-p-4.js" as="script"><link rel="prefetch" href="/learnDoc/assets/markdown.html-B-gz022N.js" as="script"><link rel="prefetch" href="/learnDoc/assets/index.html-DYxLfMdg.js" as="script"><link rel="prefetch" href="/learnDoc/assets/index.html-BkTM1Xs2.js" as="script"><link rel="prefetch" href="/learnDoc/assets/index.html-_sBSZxpc.js" as="script"><link rel="prefetch" href="/learnDoc/assets/index.html-CQacVoI7.js" as="script"><link rel="prefetch" href="/learnDoc/assets/index.html-UUOeEkr9.js" as="script"><link rel="prefetch" href="/learnDoc/assets/index.html-Buo-F08x.js" as="script"><link rel="prefetch" href="/learnDoc/assets/404.html-Crq-DXIe.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container external-link-icon"><!--[--><header class="vp-navbar"><div class="vp-toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/learnDoc/"><img class="vp-site-logo" src="https://postimage.me/images/2024/08/06/cartoon-.png" alt="Echo"><span class="vp-site-name vp-hide-mobile" aria-hidden="true">Echo</span></a></span><div class="vp-navbar-items-wrapper" style=""><!--[--><!--]--><nav class="vp-navbar-items vp-hide-mobile" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/learnDoc/" aria-label="文档"><!---->文档<!----></a></div><!--]--></nav><!--[--><!--]--><button class="vp-toggle-color-mode-button" title="toggle color mode"><svg class="light-icon" viewbox="0 0 32 32" style=""><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg class="dark-icon" viewbox="0 0 32 32" style="display:none;"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="vp-sidebar-mask"></div><!--[--><aside class="vp-sidebar"><nav class="vp-navbar-items" aria-label="site navigation"><!--[--><div class="vp-navbar-item"><a class="route-link auto-link" href="/learnDoc/" aria-label="文档"><!---->文档<!----></a></div><!--]--></nav><!--[--><!--]--><ul class="vp-sidebar-items"><!--[--><li><a class="route-link auto-link vp-sidebar-item vp-sidebar-heading" href="/learnDoc/zh/advance/Screen/" aria-label="大屏适配"><!---->大屏适配<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item vp-sidebar-heading" href="/learnDoc/zh/advance/UpLoad/" aria-label="H5移动端图片上传"><!---->H5移动端图片上传<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item vp-sidebar-heading" href="/learnDoc/zh/advance/Signature/" aria-label="电子签名"><!---->电子签名<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item vp-sidebar-heading" href="/learnDoc/zh/advance/ScrollLoad/" aria-label="滚动加载"><!---->滚动加载<!----></a><!----></li><li><a class="route-link auto-link vp-sidebar-item vp-sidebar-heading" href="/learnDoc/zh/advance/ProgressBar/" aria-label="自定义进度条"><!---->自定义进度条<!----></a><!----></li><li><a class="route-link route-link-active auto-link vp-sidebar-item vp-sidebar-heading active" href="/learnDoc/zh/advance/Vite/" aria-label="使用Vite构建"><!---->使用Vite构建<!----></a><!----></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="vp-page"><!--[--><!--]--><div class="theme-default-content"><!--[--><!--]--><div><h2 id="使用-vite-构建新项目及其应用案例文档" tabindex="-1"><a class="header-anchor" href="#使用-vite-构建新项目及其应用案例文档"><span>使用 Vite 构建新项目及其应用案例文档</span></a></h2><p>Vite 是一个现代化的构建工具，旨在提供更快的开发体验，尤其是在现代 JavaScript 应用的构建过程中。Vite 的出现是为了应对传统构建工具（如 Webpack）的一些瓶颈，特别是在开发过程中构建速度慢和性能瓶颈的问题。Vite 借助浏览器原生支持的 ES 模块 (ESM) 来加速构建和热更新（HMR），从而提升了开发体验和效率。</p><ol><li>Vite 的特点和优势 Vite 的核心特点：</li></ol><ul><li>极速启动：通过浏览器原生支持 ES 模块，Vite 跳过了传统的打包过程，采用“按需编译”的方式，大大加速了项目启动速度。</li><li>即时热更新 (HMR)：Vite 提供了极速的热模块替换 (HMR) 支持，无需刷新浏览器即可实时查看修改效果。</li><li>现代化构建：Vite 默认使用 ESBuild 作为构建工具，ESBuild 是一个非常快速的构建工具，比传统的 Webpack 更加高效。</li><li>预构建：Vite 自动优化依赖，将第三方库（如Vue、React）在开发时进行预构建，避免每次都从头构建这些依赖。</li><li>支持多种框架：Vite 支持 Vue、React、Svelte 等多种流行前端框架的开发，且对 TypeScript 支持良好。</li></ul><ol start="2"><li>创建 Vite 项目</li></ol><ul><li>安装 Vite 并创建项目</li></ul><div class="custom-container tip"><p class="custom-container-title">兼容性注意</p><p>Vite 需要 <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">Node.js</a> 版本 14.18+，16+。然而，有些模板需要依赖更高的 Node 版本才能正常运行，当你的包管理器发出警告时，请注意升级你的 Node 版本。</p></div><p>使用 NPM:</p><div class="language-bash line-numbers-mode" data-highlighter="prismjs" data-ext="sh" data-title="sh"><pre><code><span class="line">$ <span class="token function">npm</span> create vite@latest</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div></div></div><p>然后按照提示操作即可！</p><p>你还可以通过附加的命令行选项直接指定项目名称和你想要使用的模板。例如，要构建一个 Vite + Vue 项目，运行:</p><div class="language-bash line-numbers-mode" data-highlighter="prismjs" data-ext="sh" data-title="sh"><pre><code><span class="line"><span class="token comment"># npm 6.x</span></span>
+<span class="line"><span class="token function">npm</span> create vite@latest my-vue-app <span class="token parameter variable">--template</span> vue</span>
+<span class="line"></span>
+<span class="line"><span class="token comment"># npm 7+, </span></span>
+<span class="line"><span class="token function">npm</span> create vite@latest my-vue-app -- <span class="token parameter variable">--template</span> vue</span>
+<span class="line"></span>
+<span class="line"><span class="token comment"># yarn</span></span>
+<span class="line"><span class="token function">yarn</span> create vite my-vue-app <span class="token parameter variable">--template</span> vue</span>
+<span class="line"></span>
+<span class="line"><span class="token comment"># pnpm</span></span>
+<span class="line"><span class="token function">pnpm</span> create vite my-vue-app <span class="token parameter variable">--template</span> vue</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>查看 <a href="https://github.com/vitejs/vite/tree/main/packages/create-vite" target="_blank" rel="noopener noreferrer">create-vite</a> 以获取每个模板的更多细节：<code>vue</code>。</p><ul><li>进入项目目录并安装依赖 执行以下命令进入创建的项目目录，并安装所有依赖：</li></ul><p>使用 npm：</p><div class="language-bash line-numbers-mode" data-highlighter="prismjs" data-ext="sh" data-title="sh"><pre><code><span class="line">$ <span class="token builtin class-name">cd</span> my-vue-app</span>
+<span class="line">$ <span class="token function">npm</span> <span class="token function">install</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div><div class="line-number"></div></div></div><ul><li>启动开发服务器</li></ul><div class="language-bash line-numbers-mode" data-highlighter="prismjs" data-ext="sh" data-title="sh"><pre><code><span class="line">$ <span class="token function">npm</span> run dev</span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0;"><div class="line-number"></div></div></div></div><!--[--><!--]--></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><!----><div class="vp-meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: 1429033948@qq.com">zp</span><!----><!--]--><!--]--></span></div></div></footer><nav class="vp-page-nav" aria-label="page navigation"><a class="route-link auto-link prev" href="/learnDoc/zh/advance/ProgressBar/" aria-label="自定义进度条"><div class="hint"><span class="arrow left"></span> 上一页</div><div class="link"><span>自定义进度条</span></div></a><!----></nav><!--[--><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/learnDoc/assets/app-BDMbNqY6.js" defer></script>
+  </body>
+</html>
