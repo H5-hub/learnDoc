@@ -21,22 +21,16 @@ Vite 需要 [Node.js](https://nodejs.org/en/) 版本 14.18+，16+。然而，有
 ```bash
 $ npm create vite@latest
 ```
-然后按照提示操作即可！
+然后按照提示操作即可
 
-你还可以通过附加的命令行选项直接指定项目名称和你想要使用的模板。例如，要构建一个 Vite + Vue 项目，运行:
+可以通过附加的命令行选项直接指定项目名称和你想要使用的模板。例如，要构建一个 Vite + Vue 项目，运行:
 
 ```bash
 # npm 6.x
 npm create vite@latest my-vue-app --template vue
 
-# npm 7+, 
+# npm 7+
 npm create vite@latest my-vue-app -- --template vue
-
-# yarn
-yarn create vite my-vue-app --template vue
-
-# pnpm
-pnpm create vite my-vue-app --template vue
 ```
 查看 [create-vite](https://github.com/vitejs/vite/tree/main/packages/create-vite) 以获取每个模板的更多细节：`vue`。
 
